@@ -1,0 +1,153 @@
+/* CSS for Otavio Tavares Bebik's Portfolio Website */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #edf2f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: 500;
+  }
+  
+  .navbar .logo {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background: #e9ecef;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  /* About Section Styles */
+  .about {
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .about img {
+    max-width: 150px;
+    margin-top: 1rem;
+    border-radius: 50%;
+  }
+  
+  /* Portfolio Section Styles */
+  .portfolio {
+    padding: 2rem;
+  }
+  
+  .portfolio-item {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .portfolio-item h3 {
+    color: #007bff;
+  }
+  
+  .portfolio-item a {
+    text-decoration: none;
+    color: #007bff;
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+  
+  /* Skills Section Styles */
+  .skills {
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 1rem 0;
+  }
+  
+  .skills li {
+    background: #e9ecef;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 4px;
+  }
+  
+  /* Contact Section Styles */
+  .contact {
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .contact p {
+    margin: 1rem 0;
+  }
+  
+  /* Education Section Styles */
+  .education, .experience {
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem 0;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar a {
+      margin: 0.5rem 0;
+    }
+  }
+  
+  /* Add your own color theme and more styling as needed */
+  .github-icon {
+    display: inline-block;
+    width: 40px;  /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    border-radius: 50%;
+    overflow: hidden; /* This will crop the image to fit the circle */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  }
+  
+  .github-icon img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* This will cover the area without losing aspect ratio */
+  }
+  
+    
